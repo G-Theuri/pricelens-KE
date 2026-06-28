@@ -1,0 +1,2 @@
+https://mall-api.kilimall.com/search?skip=0&size=500&frontCategoryId=872&useSuggestion=true&limit=36
+https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
