@@ -1,0 +1,152 @@
+2026-07-02 14:28:18.144 | INFO     | __main__:main:71 - Scraping 9 pages
+2026-07-02 14:28:18.354 | INFO     | __main__:main:73 - Limiting to 10 scrapes.
+2026-07-02 14:28:24.183 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:28:24.559 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:28:24.958 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:28:25.060 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:28:25.337 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=5#catalog-listing
+2026-07-02 14:28:25.570 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=6#catalog-listing
+2026-07-02 14:28:25.650 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=7#catalog-listing
+2026-07-02 14:28:25.782 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=8#catalog-listing
+2026-07-02 14:28:25.884 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=9#catalog-listing
+2026-07-02 14:28:30.757 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:08.679 | INFO     | __main__:main:71 - Scraping 9 pages
+2026-07-02 14:30:08.814 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:30:15.221 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:30:15.370 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:30:15.421 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:30:15.424 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:30:15.428 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=5#catalog-listing
+2026-07-02 14:30:15.432 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=6#catalog-listing
+2026-07-02 14:30:15.434 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=7#catalog-listing
+2026-07-02 14:30:15.489 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=8#catalog-listing
+2026-07-02 14:30:15.490 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=9#catalog-listing
+2026-07-02 14:30:18.172 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:18.357 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:18.531 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:18.717 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:18.972 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:19.171 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:19.374 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:19.543 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:30:19.715 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': '"failed to parse columns parameter ()" (line 1, column 1)', 'code': 'PGRST100', 'hint': None, 'details': 'unexpected end of input expecting field name (* or [a..z0..9_$])'}
+2026-07-02 14:43:15.163 | INFO     | __main__:main:71 - Scraping 9 pages
+2026-07-02 14:43:15.420 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:43:21.287 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:43:21.756 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:43:22.933 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:43:23.211 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:43:23.227 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=5#catalog-listing
+2026-07-02 14:43:23.338 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=6#catalog-listing
+2026-07-02 14:43:23.562 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=7#catalog-listing
+2026-07-02 14:43:23.757 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=8#catalog-listing
+2026-07-02 14:43:23.796 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=9#catalog-listing
+2026-07-02 14:43:53.844 | INFO     | __main__:main:71 - Scraping 9 pages
+2026-07-02 14:43:53.901 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:43:59.966 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:44:00.959 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:44:01.247 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:44:01.628 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:44:01.913 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=5#catalog-listing
+2026-07-02 14:44:02.147 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=6#catalog-listing
+2026-07-02 14:44:02.156 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=7#catalog-listing
+2026-07-02 14:44:02.162 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=8#catalog-listing
+2026-07-02 14:44:02.440 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=9#catalog-listing
+2026-07-02 14:44:04.985 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:05.724 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:05.964 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:06.330 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:06.670 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:06.986 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:07.303 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:07.585 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:44:07.844 | INFO     | __main__:main:83 - Upserted 0 rows
+2026-07-02 14:45:09.461 | INFO     | __main__:main:71 - Scraping 2 pages
+2026-07-02 14:45:09.682 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:45:15.160 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:45:15.510 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:48:37.136 | INFO     | __main__:main:71 - Scraping 2 pages
+2026-07-02 14:48:37.267 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:48:42.609 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:48:43.281 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:48:45.158 | INFO     | __main__:main:86 - Upserted 0 rows
+2026-07-02 14:49:03.377 | INFO     | __main__:main:71 - Scraping 4 pages
+2026-07-02 14:49:03.449 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:49:08.925 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:49:09.051 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:49:09.174 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:49:09.214 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:49:10.882 | INFO     | __main__:main:86 - Upserted 0 rows
+2026-07-02 14:52:50.814 | INFO     | __main__:main:71 - Scraping 4 pages
+2026-07-02 14:52:51.007 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:52:56.333 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:52:56.442 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:52:56.539 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:52:56.557 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:52:57.840 | ERROR    | __main__:upsert:61 - Error upserting to supabase: 'str' object has no attribute 'keys'
+2026-07-02 14:53:51.528 | INFO     | __main__:main:71 - Scraping 4 pages
+2026-07-02 14:53:51.667 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:53:57.066 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:53:57.069 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:53:57.079 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:53:57.113 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:53:59.817 | ERROR    | __main__:upsert:61 - Error upserting to supabase: 'str' object has no attribute 'keys'
+2026-07-02 14:59:27.331 | INFO     | __main__:main:71 - Scraping 4 pages
+2026-07-02 14:59:27.481 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 14:59:32.674 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 14:59:32.843 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 14:59:33.015 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 14:59:33.029 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 14:59:37.237 | ERROR    | __main__:upsert:61 - Error upserting to supabase: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-07-02 15:01:54.207 | INFO     | __main__:main:71 - Scraping 4 pages
+2026-07-02 15:01:54.374 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 15:01:59.557 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 15:01:59.563 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 15:01:59.575 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 15:01:59.596 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 15:02:00.116 | ERROR    | __main__:extract_data:54 - Error extracting data: string indices must be integers, not 'str'
+2026-07-02 15:02:00.399 | ERROR    | __main__:extract_data:54 - Error extracting data: string indices must be integers, not 'str'
+2026-07-02 15:02:00.768 | ERROR    | __main__:extract_data:54 - Error extracting data: string indices must be integers, not 'str'
+2026-07-02 15:02:01.025 | ERROR    | __main__:extract_data:54 - Error extracting data: string indices must be integers, not 'str'
+2026-07-02 15:03:16.762 | INFO     | __main__:main:72 - Scraping 4 pages
+2026-07-02 15:03:16.826 | INFO     | __main__:main:74 - Limiting to 10 active tabs.
+2026-07-02 15:03:22.122 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 15:03:22.126 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 15:03:22.135 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 15:03:22.141 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 15:03:25.336 | ERROR    | __main__:upsert:62 - Error upserting to supabase: {'message': 'ON CONFLICT DO UPDATE command cannot affect row a second time', 'code': '21000', 'hint': 'Ensure that no rows proposed for insertion within the same command have duplicate constrained values.', 'details': None}
+2026-07-02 15:05:38.109 | INFO     | __main__:main:71 - Scraping 4 pages
+2026-07-02 15:05:38.244 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 15:05:43.467 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 15:05:43.523 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 15:05:43.534 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 15:05:43.541 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 15:05:48.376 | INFO     | __main__:main:88 - Upserted 159 rows
+2026-07-02 15:06:07.308 | INFO     | __main__:main:71 - Scraping 4 pages
+2026-07-02 15:06:07.498 | INFO     | __main__:main:73 - Limiting to 10 active tabs.
+2026-07-02 15:06:12.901 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 15:06:13.172 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 15:06:13.185 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 15:06:13.200 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 15:06:17.525 | INFO     | __main__:main:88 - Upserted 160 rows
+2026-07-02 15:47:39.394 | INFO     | __main__:main:69 - Scraping 6 pages
+2026-07-02 15:47:39.477 | INFO     | __main__:main:71 - Limiting to 10 active tabs.
+2026-07-02 15:47:44.786 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 15:47:44.886 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 15:47:45.215 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 15:47:45.285 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 15:47:45.403 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=5#catalog-listing
+2026-07-02 15:47:45.433 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=6#catalog-listing
+2026-07-02 15:47:50.807 | INFO     | __main__:main:86 - Upserted 238 rows
+2026-07-02 15:49:40.906 | INFO     | __main__:main:69 - --------------------------------------------------------------------------------------------------------------
+2026-07-02 15:49:41.007 | INFO     | __main__:main:70 - Scraping 6 pages
+2026-07-02 15:49:41.672 | INFO     | __main__:main:72 - Limiting to 10 active tabs.
+2026-07-02 15:49:48.339 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=1#catalog-listing
+2026-07-02 15:49:48.637 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=5#catalog-listing
+2026-07-02 15:49:48.773 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=6#catalog-listing
+2026-07-02 15:49:48.821 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=2#catalog-listing
+2026-07-02 15:49:48.856 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=3#catalog-listing
+2026-07-02 15:49:48.865 | INFO     | __main__:extract_data:31 - Extracting data from: https://www.jumia.co.ke/phones-tablets/?page=4#catalog-listing
+2026-07-02 15:49:53.351 | INFO     | __main__:main:87 - Upserted 250 rows
+2026-07-02 15:49:53.351 | INFO     | __main__:main:88 - Finished successfully!
+2026-07-02 15:49:53.352 | INFO     | __main__:main:89 - --------------------------------------------------------------------------------------------------------------

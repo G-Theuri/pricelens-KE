@@ -35,13 +35,11 @@ async def extract_data(tab, url):
                 .filter(el => el.querySelector("div.info h3.name") !== null)
                 .map(el => {
                     const priceEl = el.querySelector("div.info div.prc");
-                    const imgsrc = el.querySelector("div.img-c img");
                     const name = el.querySelector("div.info h3.name");
                     return {
                         platform_sku: el.getAttribute("data-gtm-id"),
                         title_raw: name.innerText,
                         url: el.href,
-                        img: imgsrc ? imgsrc.src : null,
                         current_price: priceEl ? parseFloat(priceEl.innerText.replace(/[^0-9.]/g, "")) : null,
                         platform: 'jumia',
                     };
@@ -49,7 +47,7 @@ async def extract_data(tab, url):
                 )
             """)
 
-        return listings_data
+        return json.loads(listings_data)
     except Exception as e:
         logger.error(f"Error extracting data: {e}")
 
@@ -66,21 +64,29 @@ async def main():
     listings = []
     
     browser = await uc.start()
-    urls  = [f'https://www.jumia.co.ke/phones-tablets/?page={p}#catalog-listing' for p in range(1, 10)]
-
+    urls  = [f'https://www.jumia.co.ke/phones-tablets/?page={p}#catalog-listing' for p in range(1, 7)]
+    
+    logger.info("-"*110)
     logger.info(f"Scraping {len(urls)} pages")
     semaphore = asyncio.Semaphore(MAX_CONCURENT)
-    logger.info(f"Limiting to {MAX_CONCURENT} scrapes.")
+    logger.info(f"Limiting to {MAX_CONCURENT} active tabs.")
 
     tasks = [visit_url(browser, semaphore, url) for url in urls]
     results = await asyncio.gather(*tasks, return_exceptions=True)
-    
+
     for result in results:
         if isinstance(result, Exception):
             logger.warning(f"Scraping page failed {result}")
         else:
-            response = await upsert(listings)
-            logger.info(f"Upserted {len(response.data)} rows")
+            print(result)
+            listings.extend(result)
+
+    listings = list({(l["platform"], l["url"]): l for l in listings}.values())
+    if listings:
+        response = await upsert(listings)
+        logger.info(f"Upserted {len(response.data)} rows")
+        logger.info("Finished successfully!")
+    logger.info("-"*110)
 
 
 
